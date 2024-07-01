@@ -4,17 +4,17 @@ My notes
 
 Eğer Docker permisison denied hatası alırsan. 
 
-'''$ sudo groupadd docker'''
+```$ sudo groupadd docker```
 
-'''$ sudo usermod -aG docker $USER'''
+```$ sudo usermod -aG docker $USER```
 
 
-'''$ newgrp docker'''
+```$ newgrp docker```
 
 
 Sistem ne kadar dolu bakmak için
 
-'''df -h '''
+```df -h ```
 
 RAM kullanımı 
-'''htop'''
+```htop```
