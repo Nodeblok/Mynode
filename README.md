@@ -1,6 +1,6 @@
-# Mynode
+# Mynodes
 My notes
-
+Kendi yaşadığıdım sorunlara bulduğum çözümleri sıraladım, çözümler yüzde yüz doğru ve kesin çalışıyor diyemem kendim için açtığım repo. 
 
 Eğer Docker permisison denied hatası alırsan. 
 
