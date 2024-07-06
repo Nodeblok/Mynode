@@ -18,3 +18,16 @@ Sistem ne kadar dolu bakmak için
 
 RAM kullanımı 
 ```htop```
+
+
+SSH bağlantısı yaparken SSH durumuna bakma 
+
+```sudo systemctl status ssh```
+
+Eğer yoksa 
+
+```sudo apt update```
+
+```sudo install openssh-server```
+
+
