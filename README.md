@@ -31,3 +31,15 @@ Eğer yoksa
 ```sudo install openssh-server```
 
 
+Waiting for cache lock: Could not get lock hatası
+
+```lsof burayahatadakikonumuyaz```
+Gelen yerde büyük ihtimalle COMMAND PID gibi bir ekran gelir, PID ile işlem yapacağız
+
+```sudo kill -9 PID```
+
+Şimdi tekrardan kurmaya çalıştığınız paketi deneyebilirsiniz.
+
+!! Bu hatanınn neden olduğunu çözmeedim, sunucumda çok fazla ir şey olmadığı için biraz araştırma yapıp kendim denedim ve oldu. Siz kullanacaksanız ona göre kullanın.
+
+
