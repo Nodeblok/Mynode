@@ -45,9 +45,15 @@ Gelen yerde büyük ihtimalle COMMAND PID gibi bir ekran gelir, PID ile işlem y
 
 remote setup commands
 
-``` sudo apt install xrdp
-sudo systemctl status xrdp
-sudo systemctl start xrdp
-sudo systemctl enable xrdp
-sudo ufw allow from any to any port 3389 proto tcp```
+```sudo apt install xrdp```
+```sudo systemctl status xrdp```
+```sudo systemctl start xrdp```
+```sudo systemctl enable xrdp```
+```sudo ufw allow from any to any port 3389 proto tcp```
+
+Eğer kullancı adınız sudoers kısmında yok diye bir hata alıyorsanız 
+```su -```
+şifreyi girin 
+```visudo```
+bir dosya açılacak en altta # User privilege specification yazacak ve altında root ve sonrasındaki ALL yazan kısımları kopyala bir altına yapıştır ve root yerine kullanıcı adını yaz 
 
