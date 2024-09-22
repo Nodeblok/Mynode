@@ -43,3 +43,11 @@ Gelen yerde büyük ihtimalle COMMAND PID gibi bir ekran gelir, PID ile işlem y
 !! Bu hatanınn neden olduğunu çözmeedim, sunucumda çok fazla ir şey olmadığı için biraz araştırma yapıp kendim denedim ve oldu. Siz kullanacaksanız ona göre kullanın.
 
 
+remote setup commands
+
+``` sudo apt install xrdp
+sudo systemctl status xrdp
+sudo systemctl start xrdp
+sudo systemctl enable xrdp
+sudo ufw allow from any to any port 3389 proto tcp```
+
